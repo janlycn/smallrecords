@@ -44,11 +44,11 @@ class Plugin extends PluginBase
             'settings' => [
                 'label' => 'janvince.smallrecords::lang.plugin.name_original',
                 'description' => 'janvince.smallrecords::lang.plugin.description',
-                'category' => 'Small plugins',
+                'category' => '通用记录',
                 'icon' => 'icon-archive',
                 'class' => 'JanVince\smallrecords\Models\Settings',
                 'keywords' => 'portfolio partners sponsors records data categories tags attributes',
-                'order' => 991,
+                'order' => 200,
                 'permissions' => ['janvince.smallrecords.access_settings'],
             ]
         ];

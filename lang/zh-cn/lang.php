@@ -427,26 +427,26 @@
     ],
 
     'settings' => [
-        'main_section' => 'Small records settings',
-        'main_section_comment' => 'Some settings for Small records plugin',
+        'main_section' => '记录设置',
+        'main_section_comment' => '一些通用记录设置',
 
         'tabs' => [
-            'lists' => 'Lists',
-            'connections' => 'Connections',
+            'lists' => '清单',
+            'connections' => '连接',
         ],
 
         'fields' => [
-            'preview_width' => 'Image width for Preview image column',
-            'preview_height' => 'Image height for Preview image column',
-            'connections_section_blog' => '(Rainlab) Blog',
-            'connections_section_pages' => '(Rainlab) Static pages',
-            'allow_records_in_blog_posts' => 'Allow records in Blog posts',
-            'allow_records_in_blog_posts_comment' => 'Show records list in blog posts (Rainlab.Blog plugin must be installed)',
-            'allow_records_in_blog_posts_area' => 'Show records from List',
+            'preview_width' => '预览图宽度',
+            'preview_height' => '预览图高度',
+            'connections_section_blog' => '(Rainlab) 博客',
+            'connections_section_pages' => '(Rainlab) 静态页面',
+            'allow_records_in_blog_posts' => '允许在博客文章中使用记录',
+            'allow_records_in_blog_posts_comment' => '在博客文章中显示记录列表(Rainlab。博客插件必须安装)',
+            'allow_records_in_blog_posts_area' => '显示清单中的记录',
 
-            'allow_records_in_pages' => 'Allow records in Static pages',
-            'allow_records_in_pages_comment' => 'Show records list in static page (Rainlab.Pages plugin must be installed)',
-            'allow_records_in_pages_area' => 'Show records from List',
+            'allow_records_in_pages' => '允许在静态页面中使用记录',
+            'allow_records_in_pages_comment' => '在静态页面中显示记录列表(Rainlab。页面插件必须安装)',
+            'allow_records_in_pages_area' => '显示清单中的记录',
         ],
     ]
 ];
