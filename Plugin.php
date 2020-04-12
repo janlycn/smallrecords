@@ -34,7 +34,7 @@ class Plugin extends PluginBase
             'name'        => 'janvince.smallrecords::lang.plugin.name',
             'description' => 'janvince.smallrecords::lang.plugin.description',
             'author'      => 'Jan Vince',
-            'icon'        => 'icon-archive'
+            'icon'        => 'icon-list-alt'
         ];
     }
 
@@ -45,7 +45,7 @@ class Plugin extends PluginBase
                 'label' => 'janvince.smallrecords::lang.plugin.name_original',
                 'description' => 'janvince.smallrecords::lang.plugin.description',
                 'category' => '通用记录',
-                'icon' => 'icon-archive',
+                'icon' => 'icon-list-alt',
                 'class' => 'JanVince\smallrecords\Models\Settings',
                 'keywords' => 'portfolio partners sponsors records data categories tags attributes',
                 'order' => 200,
@@ -60,7 +60,7 @@ class Plugin extends PluginBase
             'smallrecords' => [
                 'label'       => 'janvince.smallrecords::lang.plugin.name_short',
                 'url'         => Backend::url('janvince/smallrecords/areas'),
-                'icon'        => 'icon-archive',
+                'icon'        => 'icon-list-alt',
                 'permissions' => ['janvince.smallrecords.*'],
                 'order'       => 991,
 
