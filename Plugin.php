@@ -61,6 +61,7 @@ class Plugin extends PluginBase
                 'label'       => 'janvince.smallrecords::lang.plugin.name_short',
                 'url'         => Backend::url('janvince/smallrecords/areas'),
                 'icon'        => 'icon-list-alt',
+                'iconSvg'     => 'plugins/janvince/smallrecords/assets/plugin-icon.svg',
                 'permissions' => ['janvince.smallrecords.*'],
                 'order'       => 991,
 
