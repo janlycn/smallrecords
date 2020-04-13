@@ -45,14 +45,14 @@ tabs:
             label: 'janvince.smallrecords::lang.common.columns.preview_image'
             type: fileupload
             mode: image
-            span: right
+            span: left
             tab: 'janvince.smallrecords::lang.common.tabs.info'
 
         preview_image_media:
             label: 'janvince.smallrecords::lang.common.columns.preview_image_media'
             type: mediafinder
             mode: image
-            span: right
+            span: left
             tab: 'janvince.smallrecords::lang.common.tabs.info'
 
         description:
